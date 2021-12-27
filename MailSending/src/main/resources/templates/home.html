@@ -1,0 +1,25 @@
+<html xmlns:th="http://www.thymeleaf.org"/>
+
+<head>
+
+<title> Mail Sending Page</title>
+
+</head>
+
+<body style="text-align:center">
+   <h2> Enter your Details</h2>
+	<form th:action="@{/register}" method="POST">
+		<input type="email" placeholder="Email" name="email"><br>
+		
+		<input type="text" placeholder="Subject" name="subject"> <br>
+		
+		<input type="text" placeholder="Message" name="message"><br>
+		
+		<input type="submit"><br>
+	
+	</form >
+
+	
+</body >
+
+</html>
